@@ -1,0 +1,62 @@
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(16, 15, 15, 0.56);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form{
+    border-radius: 8px;
+    background-color: #FFFDFD;
+    position: relative;
+    padding: 56px;
+}
+
+.modal-delete form{
+    width: 350px;
+}
+
+form img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+ 
+}
+
+.modal-delete .container-form h1{
+    width: 100%;
+    text-align: center;
+}
+.modal-delete .container-form p{
+    width: 100%;
+    text-align: center;
+    margin: 24px 0 32px 0;
+}
+
+.modal-delete .container-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.modal-delete .container-buttons button{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.modal-delete .container-buttons a{
+    width: 100%;
+    text-align: center;
+}
+

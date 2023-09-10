@@ -1,0 +1,28 @@
+button{
+    all: unset;
+    box-sizing: border-box;
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.btn-green{
+    background-color: #04C45C;
+}
+
+.btn-red{
+    background-color: rgba(251, 6, 21, 0.65);
+}
+
+.btn-green:hover,
+.btn-red:hover{
+    filter: brightness(90%);
+}

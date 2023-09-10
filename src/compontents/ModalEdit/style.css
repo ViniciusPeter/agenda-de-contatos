@@ -1,0 +1,60 @@
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(16, 15, 15, 0.56);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form{
+    border-radius: 8px;
+    background-color: #FFFDFD;
+    position: relative;
+    padding: 56px;
+}
+
+.modal-edit form{
+    width: 350px;
+}
+
+form img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+ 
+}
+
+.modal-edit .container-form h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.modal-edit .container-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.modal-edit .container-buttons a{
+    width: 100%;
+}
+
+.modal-edit .container-form button{
+    margin-top: 10px;
+}
+
+.modal-edit p{
+    margin-top: 96px;
+}
